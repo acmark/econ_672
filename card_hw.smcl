@@ -1,0 +1,265 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/aaronmarkiewitz/Documents/research/stata/econ_672/card_hw.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 6 Feb 2018, 10:39:27
+{txt}
+{com}. bcuse card
+
+{txt}Contains data from {res}http://fmwww.bc.edu/ec-p/data/wooldridge/card.dta
+{txt}  obs:{res}         3,010                          
+{txt} vars:{res}            34                          26 Jan 2000 12:16
+{txt} size:{res}       409,360                          
+{txt}{hline}
+              storage   display    value
+variable name   type    format     label      variable label
+{hline}
+{p 0 48}{res}{bind:id             }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:nearc2         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:nearc4         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:educ           }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:age            }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:fatheduc       }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:motheduc       }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:weight         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:momdad14       }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:sinmom14       }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:step14         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:reg661         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:reg662         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:reg663         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:reg664         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:reg665         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:reg666         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:reg667         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:reg668         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:reg669         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:south66        }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:black          }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:smsa           }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:south          }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:smsa66         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:wage           }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:enroll         }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:KWW            }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:IQ             }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:married        }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:libcrd14       }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:exper          }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:lwage          }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:expersq        }{txt}{bind: float   }{bind:{txt}%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{txt}{hline}
+Sorted by:  
+
+{com}. 
+. *a
+. gen lnwage=ln(wage)
+{txt}
+{com}. gen exper_sq = exper^2
+{txt}
+{com}. reg lnwage educ exper exper_sq  black south smsa reg661-reg668 smsa66
+
+      {txt}Source {c |}       SS       df       MS              Number of obs ={res}    3010
+{txt}{hline 13}{char +}{hline 30}           F( 15,  2994) ={res}   85.48
+    {txt}   Model {char |} {res} 177.695591    15  11.8463727           {txt}Prob > F      = {res} 0.0000
+    {txt}Residual {char |} {res} 414.946054  2994  .138592536           {txt}R-squared     = {res} 0.2998
+{txt}{hline 13}{char +}{hline 30}           Adj R-squared = {res} 0.2963
+    {txt}   Total {char |} {res} 592.641645  3009  .196956346           {txt}Root MSE      = {res} .37228
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}      lnwage{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 8}educ {c |}{col 14}{res}{space 2} .0746933{col 26}{space 2} .0034983{col 37}{space 1}   21.35{col 46}{space 3}0.000{col 54}{space 4} .0678339{col 67}{space 3} .0815527
+{txt}{space 7}exper {c |}{col 14}{res}{space 2}  .084832{col 26}{space 2} .0066242{col 37}{space 1}   12.81{col 46}{space 3}0.000{col 54}{space 4} .0718435{col 67}{space 3} .0978205
+{txt}{space 4}exper_sq {c |}{col 14}{res}{space 2} -.002287{col 26}{space 2} .0003166{col 37}{space 1}   -7.22{col 46}{space 3}0.000{col 54}{space 4}-.0029079{col 67}{space 3}-.0016662
+{txt}{space 7}black {c |}{col 14}{res}{space 2}-.1990123{col 26}{space 2} .0182483{col 37}{space 1}  -10.91{col 46}{space 3}0.000{col 54}{space 4}-.2347927{col 67}{space 3}-.1632318
+{txt}{space 7}south {c |}{col 14}{res}{space 2} -.147955{col 26}{space 2} .0259799{col 37}{space 1}   -5.69{col 46}{space 3}0.000{col 54}{space 4}-.1988952{col 67}{space 3}-.0970148
+{txt}{space 8}smsa {c |}{col 14}{res}{space 2} .1363845{col 26}{space 2} .0201005{col 37}{space 1}    6.79{col 46}{space 3}0.000{col 54}{space 4} .0969724{col 67}{space 3} .1757967
+{txt}{space 6}reg661 {c |}{col 14}{res}{space 2}-.1185698{col 26}{space 2} .0388301{col 37}{space 1}   -3.05{col 46}{space 3}0.002{col 54}{space 4} -.194706{col 67}{space 3}-.0424335
+{txt}{space 6}reg662 {c |}{col 14}{res}{space 2}-.0222026{col 26}{space 2} .0282575{col 37}{space 1}   -0.79{col 46}{space 3}0.432{col 54}{space 4}-.0776088{col 67}{space 3} .0332036
+{txt}{space 6}reg663 {c |}{col 14}{res}{space 2} .0259703{col 26}{space 2} .0273644{col 37}{space 1}    0.95{col 46}{space 3}0.343{col 54}{space 4}-.0276846{col 67}{space 3} .0796251
+{txt}{space 6}reg664 {c |}{col 14}{res}{space 2}-.0634942{col 26}{space 2} .0356803{col 37}{space 1}   -1.78{col 46}{space 3}0.075{col 54}{space 4}-.1334546{col 67}{space 3} .0064662
+{txt}{space 6}reg665 {c |}{col 14}{res}{space 2} .0094551{col 26}{space 2} .0361174{col 37}{space 1}    0.26{col 46}{space 3}0.794{col 54}{space 4}-.0613623{col 67}{space 3} .0802725
+{txt}{space 6}reg666 {c |}{col 14}{res}{space 2} .0219476{col 26}{space 2} .0400984{col 37}{space 1}    0.55{col 46}{space 3}0.584{col 54}{space 4}-.0566755{col 67}{space 3} .1005708
+{txt}{space 6}reg667 {c |}{col 14}{res}{space 2}-.0005887{col 26}{space 2} .0393793{col 37}{space 1}   -0.01{col 46}{space 3}0.988{col 54}{space 4} -.077802{col 67}{space 3} .0766245
+{txt}{space 6}reg668 {c |}{col 14}{res}{space 2}-.1750058{col 26}{space 2} .0463394{col 37}{space 1}   -3.78{col 46}{space 3}0.000{col 54}{space 4} -.265866{col 67}{space 3}-.0841456
+{txt}{space 6}smsa66 {c |}{col 14}{res}{space 2} .0262417{col 26}{space 2} .0194477{col 37}{space 1}    1.35{col 46}{space 3}0.177{col 54}{space 4}-.0118905{col 67}{space 3} .0643739
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 4.739377{col 26}{space 2} .0715282{col 37}{space 1}   66.26{col 46}{space 3}0.000{col 54}{space 4} 4.599127{col 67}{space 3} 4.879626
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. *b
+. reg educ exper exper_sq  black south smsa reg661-reg668 smsa66 nearc4
+
+      {txt}Source {c |}       SS       df       MS              Number of obs ={res}    3010
+{txt}{hline 13}{char +}{hline 30}           F( 15,  2994) ={res}  182.13
+    {txt}   Model {char |} {res} 10287.6179    15  685.841194           {txt}Prob > F      = {res} 0.0000
+    {txt}Residual {char |} {res} 11274.4622  2994  3.76568542           {txt}R-squared     = {res} 0.4771
+{txt}{hline 13}{char +}{hline 30}           Adj R-squared = {res} 0.4745
+    {txt}   Total {char |} {res} 21562.0801  3009  7.16586243           {txt}Root MSE      = {res} 1.9405
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}        educ{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 7}exper {c |}{col 14}{res}{space 2}-.4125334{col 26}{space 2} .0336996{col 37}{space 1}  -12.24{col 46}{space 3}0.000{col 54}{space 4}-.4786101{col 67}{space 3}-.3464566
+{txt}{space 4}exper_sq {c |}{col 14}{res}{space 2} .0008686{col 26}{space 2} .0016504{col 37}{space 1}    0.53{col 46}{space 3}0.599{col 54}{space 4}-.0023674{col 67}{space 3} .0041046
+{txt}{space 7}black {c |}{col 14}{res}{space 2}-.9355287{col 26}{space 2} .0937348{col 37}{space 1}   -9.98{col 46}{space 3}0.000{col 54}{space 4} -1.11932{col 67}{space 3}-.7517377
+{txt}{space 7}south {c |}{col 14}{res}{space 2}-.0516126{col 26}{space 2} .1354284{col 37}{space 1}   -0.38{col 46}{space 3}0.703{col 54}{space 4}-.3171548{col 67}{space 3} .2139296
+{txt}{space 8}smsa {c |}{col 14}{res}{space 2} .4021825{col 26}{space 2} .1048112{col 37}{space 1}    3.84{col 46}{space 3}0.000{col 54}{space 4} .1966732{col 67}{space 3} .6076918
+{txt}{space 6}reg661 {c |}{col 14}{res}{space 2} -.210271{col 26}{space 2} .2024568{col 37}{space 1}   -1.04{col 46}{space 3}0.299{col 54}{space 4}-.6072395{col 67}{space 3} .1866975
+{txt}{space 6}reg662 {c |}{col 14}{res}{space 2}-.2889073{col 26}{space 2} .1473395{col 37}{space 1}   -1.96{col 46}{space 3}0.050{col 54}{space 4}-.5778042{col 67}{space 3}-.0000105
+{txt}{space 6}reg663 {c |}{col 14}{res}{space 2}-.2382099{col 26}{space 2} .1426357{col 37}{space 1}   -1.67{col 46}{space 3}0.095{col 54}{space 4}-.5178838{col 67}{space 3} .0414639
+{txt}{space 6}reg664 {c |}{col 14}{res}{space 2} -.093089{col 26}{space 2} .1859827{col 37}{space 1}   -0.50{col 46}{space 3}0.617{col 54}{space 4}-.4577559{col 67}{space 3} .2715779
+{txt}{space 6}reg665 {c |}{col 14}{res}{space 2}-.4828875{col 26}{space 2} .1881872{col 37}{space 1}   -2.57{col 46}{space 3}0.010{col 54}{space 4}-.8518767{col 67}{space 3}-.1138982
+{txt}{space 6}reg666 {c |}{col 14}{res}{space 2}-.5130857{col 26}{space 2} .2096352{col 37}{space 1}   -2.45{col 46}{space 3}0.014{col 54}{space 4}-.9241293{col 67}{space 3}-.1020421
+{txt}{space 6}reg667 {c |}{col 14}{res}{space 2}-.4270887{col 26}{space 2} .2056208{col 37}{space 1}   -2.08{col 46}{space 3}0.038{col 54}{space 4}-.8302611{col 67}{space 3}-.0239163
+{txt}{space 6}reg668 {c |}{col 14}{res}{space 2} .3136204{col 26}{space 2} .2416739{col 37}{space 1}    1.30{col 46}{space 3}0.194{col 54}{space 4}-.1602434{col 67}{space 3} .7874841
+{txt}{space 6}smsa66 {c |}{col 14}{res}{space 2} .0254805{col 26}{space 2} .1057692{col 37}{space 1}    0.24{col 46}{space 3}0.810{col 54}{space 4}-.1819071{col 67}{space 3} .2328682
+{txt}{space 6}nearc4 {c |}{col 14}{res}{space 2} .3198989{col 26}{space 2} .0878638{col 37}{space 1}    3.64{col 46}{space 3}0.000{col 54}{space 4} .1476194{col 67}{space 3} .4921785
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 16.84852{col 26}{space 2} .2111222{col 37}{space 1}   79.80{col 46}{space 3}0.000{col 54}{space 4} 16.43456{col 67}{space 3} 17.26248
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. *c
+. ivregress 2sls lnwage exper exper_sq  black south smsa reg661-reg668 smsa66 ///
+> (educ = exper exper_sq  black south smsa reg661-reg668 smsa66 nearc4)
+{res}
+{txt}{col 1}Instrumental variables (2SLS) regression{col 56}Number of obs{col 70}= {res}   3010
+{txt}{col 1}{col 56}Wald chi2({res}15{txt}){col 70}={res}  769.20
+{txt}{col 1}{col 56}Prob > chi2{col 70}= {res} 0.0000
+{txt}{col 1}{col 56}R-squared{col 70}={res}  0.2382
+{txt}{col 56}Root MSE{col 70}= {res}  .3873
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}      lnwage{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 8}educ {c |}{col 14}{res}{space 2} .1315038{col 26}{space 2} .0548174{col 37}{space 1}    2.40{col 46}{space 3}0.016{col 54}{space 4} .0240637{col 67}{space 3}  .238944
+{txt}{space 7}exper {c |}{col 14}{res}{space 2} .1082711{col 26}{space 2} .0235956{col 37}{space 1}    4.59{col 46}{space 3}0.000{col 54}{space 4} .0620246{col 67}{space 3} .1545176
+{txt}{space 4}exper_sq {c |}{col 14}{res}{space 2}-.0023349{col 26}{space 2} .0003326{col 37}{space 1}   -7.02{col 46}{space 3}0.000{col 54}{space 4}-.0029868{col 67}{space 3} -.001683
+{txt}{space 7}black {c |}{col 14}{res}{space 2}-.1467757{col 26}{space 2} .0537564{col 37}{space 1}   -2.73{col 46}{space 3}0.006{col 54}{space 4}-.2521364{col 67}{space 3}-.0414151
+{txt}{space 7}south {c |}{col 14}{res}{space 2}-.1446715{col 26}{space 2}  .027212{col 37}{space 1}   -5.32{col 46}{space 3}0.000{col 54}{space 4}-.1980061{col 67}{space 3}-.0913369
+{txt}{space 8}smsa {c |}{col 14}{res}{space 2} .1118083{col 26}{space 2} .0315777{col 37}{space 1}    3.54{col 46}{space 3}0.000{col 54}{space 4} .0499171{col 67}{space 3} .1736995
+{txt}{space 6}reg661 {c |}{col 14}{res}{space 2}-.1078142{col 26}{space 2} .0417024{col 37}{space 1}   -2.59{col 46}{space 3}0.010{col 54}{space 4}-.1895494{col 67}{space 3} -.026079
+{txt}{space 6}reg662 {c |}{col 14}{res}{space 2}-.0070465{col 26}{space 2} .0328197{col 37}{space 1}   -0.21{col 46}{space 3}0.830{col 54}{space 4}-.0713719{col 67}{space 3}  .057279
+{txt}{space 6}reg663 {c |}{col 14}{res}{space 2} .0404445{col 26}{space 2}  .031696{col 37}{space 1}    1.28{col 46}{space 3}0.202{col 54}{space 4}-.0216784{col 67}{space 3} .1025675
+{txt}{space 6}reg664 {c |}{col 14}{res}{space 2}-.0579172{col 26}{space 2} .0375058{col 37}{space 1}   -1.54{col 46}{space 3}0.123{col 54}{space 4}-.1314272{col 67}{space 3} .0155929
+{txt}{space 6}reg665 {c |}{col 14}{res}{space 2} .0384577{col 26}{space 2} .0468138{col 37}{space 1}    0.82{col 46}{space 3}0.411{col 54}{space 4}-.0532956{col 67}{space 3}  .130211
+{txt}{space 6}reg666 {c |}{col 14}{res}{space 2} .0550887{col 26}{space 2} .0525196{col 37}{space 1}    1.05{col 46}{space 3}0.294{col 54}{space 4}-.0478478{col 67}{space 3} .1580252
+{txt}{space 6}reg667 {c |}{col 14}{res}{space 2}  .026758{col 26}{space 2} .0486988{col 37}{space 1}    0.55{col 46}{space 3}0.583{col 54}{space 4}-.0686898{col 67}{space 3} .1222058
+{txt}{space 6}reg668 {c |}{col 14}{res}{space 2}-.1908912{col 26}{space 2} .0505764{col 37}{space 1}   -3.77{col 46}{space 3}0.000{col 54}{space 4}-.2900191{col 67}{space 3}-.0917634
+{txt}{space 6}smsa66 {c |}{col 14}{res}{space 2} .0185311{col 26}{space 2} .0215511{col 37}{space 1}    0.86{col 46}{space 3}0.390{col 54}{space 4}-.0237082{col 67}{space 3} .0607704
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 3.773965{col 26}{space 2} .9324588{col 37}{space 1}    4.05{col 46}{space 3}0.000{col 54}{space 4} 1.946379{col 67}{space 3} 5.601551
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{p 0 15 23}Instrumented:{space 2}educ{p_end}
+{p 0 15 23}Instruments:{space 3}exper exper_sq black south smsa reg661 reg662 reg663 reg664 reg665 reg666 reg667 reg668 smsa66 nearc4{p_end}
+
+{com}. *d
+. reg educ nearc2
+
+      {txt}Source {c |}       SS       df       MS              Number of obs ={res}    3010
+{txt}{hline 13}{char +}{hline 30}           F(  1,  3008) ={res}    6.76
+    {txt}   Model {char |} {res} 48.3446646     1  48.3446646           {txt}Prob > F      = {res} 0.0094
+    {txt}Residual {char |} {res} 21513.7354  3008  7.15217267           {txt}R-squared     = {res} 0.0022
+{txt}{hline 13}{char +}{hline 30}           Adj R-squared = {res} 0.0019
+    {txt}   Total {char |} {res} 21562.0801  3009  7.16586243           {txt}Root MSE      = {res} 2.6744
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}        educ{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 6}nearc2 {c |}{col 14}{res}{space 2} .2552584{col 26}{space 2} .0981804{col 37}{space 1}    2.60{col 46}{space 3}0.009{col 54}{space 4} .0627509{col 67}{space 3} .4477659
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 13.15092{col 26}{space 2} .0651894{col 37}{space 1}  201.73{col 46}{space 3}0.000{col 54}{space 4}  13.0231{col 67}{space 3} 13.27874
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. reg educ nearc4
+
+      {txt}Source {c |}       SS       df       MS              Number of obs ={res}    3010
+{txt}{hline 13}{char +}{hline 30}           F(  1,  3008) ={res}   63.91
+    {txt}   Model {char |} {res} 448.604204     1  448.604204           {txt}Prob > F      = {res} 0.0000
+    {txt}Residual {char |} {res} 21113.4759  3008  7.01910767           {txt}R-squared     = {res} 0.0208
+{txt}{hline 13}{char +}{hline 30}           Adj R-squared = {res} 0.0205
+    {txt}   Total {char |} {res} 21562.0801  3009  7.16586243           {txt}Root MSE      = {res} 2.6494
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}        educ{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 6}nearc4 {c |}{col 14}{res}{space 2}  .829019{col 26}{space 2} .1036988{col 37}{space 1}    7.99{col 46}{space 3}0.000{col 54}{space 4} .6256912{col 67}{space 3} 1.032347
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 12.69801{col 26}{space 2} .0856416{col 37}{space 1}  148.27{col 46}{space 3}0.000{col 54}{space 4} 12.53009{col 67}{space 3} 12.86594
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. ivregress 2sls lnwage exper exper_sq  black south smsa reg661-reg668 smsa66 ///
+> (educ = exper exper_sq  black south smsa reg661-reg668 smsa66 nearc2 nearc4)
+{res}
+{txt}{col 1}Instrumental variables (2SLS) regression{col 56}Number of obs{col 70}= {res}   3010
+{txt}{col 1}{col 56}Wald chi2({res}15{txt}){col 70}={res}  709.89
+{txt}{col 1}{col 56}Prob > chi2{col 70}= {res} 0.0000
+{txt}{col 1}{col 56}R-squared{col 70}={res}  0.1702
+{txt}{col 56}Root MSE{col 70}= {res}  .4042
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}      lnwage{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 8}educ {c |}{col 14}{res}{space 2} .1570594{col 26}{space 2} .0524383{col 37}{space 1}    3.00{col 46}{space 3}0.003{col 54}{space 4} .0542822{col 67}{space 3} .2598366
+{txt}{space 7}exper {c |}{col 14}{res}{space 2} .1188149{col 26}{space 2} .0227454{col 37}{space 1}    5.22{col 46}{space 3}0.000{col 54}{space 4} .0742348{col 67}{space 3}  .163395
+{txt}{space 4}exper_sq {c |}{col 14}{res}{space 2}-.0023565{col 26}{space 2} .0003466{col 37}{space 1}   -6.80{col 46}{space 3}0.000{col 54}{space 4}-.0030358{col 67}{space 3}-.0016772
+{txt}{space 7}black {c |}{col 14}{res}{space 2}-.1232778{col 26}{space 2} .0520112{col 37}{space 1}   -2.37{col 46}{space 3}0.018{col 54}{space 4} -.225218{col 67}{space 3}-.0213376
+{txt}{space 7}south {c |}{col 14}{res}{space 2}-.1431945{col 26}{space 2} .0283691{col 37}{space 1}   -5.05{col 46}{space 3}0.000{col 54}{space 4}-.1987968{col 67}{space 3}-.0875921
+{txt}{space 8}smsa {c |}{col 14}{res}{space 2}  .100753{col 26}{space 2} .0314355{col 37}{space 1}    3.21{col 46}{space 3}0.001{col 54}{space 4} .0391406{col 67}{space 3} .1623654
+{txt}{space 6}reg661 {c |}{col 14}{res}{space 2} -.102976{col 26}{space 2} .0433068{col 37}{space 1}   -2.38{col 46}{space 3}0.017{col 54}{space 4}-.1878558{col 67}{space 3}-.0180962
+{txt}{space 6}reg662 {c |}{col 14}{res}{space 2}-.0002286{col 26}{space 2} .0337043{col 37}{space 1}   -0.01{col 46}{space 3}0.995{col 54}{space 4}-.0662879{col 67}{space 3} .0658306
+{txt}{space 6}reg663 {c |}{col 14}{res}{space 2} .0469556{col 26}{space 2} .0325621{col 37}{space 1}    1.44{col 46}{space 3}0.149{col 54}{space 4} -.016865{col 67}{space 3} .1107763
+{txt}{space 6}reg664 {c |}{col 14}{res}{space 2}-.0554084{col 26}{space 2} .0390786{col 37}{space 1}   -1.42{col 46}{space 3}0.156{col 54}{space 4} -.132001{col 67}{space 3} .0211842
+{txt}{space 6}reg665 {c |}{col 14}{res}{space 2} .0515041{col 26}{space 2} .0474412{col 37}{space 1}    1.09{col 46}{space 3}0.278{col 54}{space 4}-.0414789{col 67}{space 3} .1444872
+{txt}{space 6}reg666 {c |}{col 14}{res}{space 2} .0699968{col 26}{space 2} .0531631{col 37}{space 1}    1.32{col 46}{space 3}0.188{col 54}{space 4}-.0342009{col 67}{space 3} .1741945
+{txt}{space 6}reg667 {c |}{col 14}{res}{space 2} .0390596{col 26}{space 2} .0496175{col 37}{space 1}    0.79{col 46}{space 3}0.431{col 54}{space 4}-.0581889{col 67}{space 3}  .136308
+{txt}{space 6}reg668 {c |}{col 14}{res}{space 2}-.1980371{col 26}{space 2} .0523952{col 37}{space 1}   -3.78{col 46}{space 3}0.000{col 54}{space 4}-.3007297{col 67}{space 3}-.0953444
+{txt}{space 6}smsa66 {c |}{col 14}{res}{space 2} .0150626{col 26}{space 2} .0222765{col 37}{space 1}    0.68{col 46}{space 3}0.499{col 54}{space 4}-.0285986{col 67}{space 3} .0587238
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 3.339687{col 26}{space 2} .8921571{col 37}{space 1}    3.74{col 46}{space 3}0.000{col 54}{space 4} 1.591091{col 67}{space 3} 5.088283
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{p 0 15 23}Instrumented:{space 2}educ{p_end}
+{p 0 15 23}Instruments:{space 3}exper exper_sq black south smsa reg661 reg662 reg663 reg664 reg665 reg666 reg667 reg668 smsa66 nearc2 nearc4{p_end}
+
+{com}. *e
+. reg IQ nearc4
+
+      {txt}Source {c |}       SS       df       MS              Number of obs ={res}    2061
+{txt}{hline 13}{char +}{hline 30}           F(  1,  2059) ={res}   12.13
+    {txt}   Model {char |} {res} 2869.62905     1  2869.62905           {txt}Prob > F      = {res} 0.0005
+    {txt}Residual {char |} {res} 487188.423  2059  236.614096           {txt}R-squared     = {res} 0.0059
+{txt}{hline 13}{char +}{hline 30}           Adj R-squared = {res} 0.0054
+    {txt}   Total {char |} {res} 490058.052  2060  237.892258           {txt}Root MSE      = {res} 15.382
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          IQ{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 6}nearc4 {c |}{col 14}{res}{space 2}   2.5962{col 26}{space 2} .7454966{col 37}{space 1}    3.48{col 46}{space 3}0.001{col 54}{space 4} 1.134195{col 67}{space 3} 4.058206
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 100.6106{col 26}{space 2} .6274557{col 37}{space 1}  160.35{col 46}{space 3}0.000{col 54}{space 4} 99.38014{col 67}{space 3} 101.8412
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. *f
+. reg IQ nearc4 smsa66 reg661 reg662 reg669
+
+      {txt}Source {c |}       SS       df       MS              Number of obs ={res}    2061
+{txt}{hline 13}{char +}{hline 30}           F(  5,  2055) ={res}   12.79
+    {txt}   Model {char |} {res} 14792.5727     5  2958.51453           {txt}Prob > F      = {res} 0.0000
+    {txt}Residual {char |} {res}  475265.48  2055   231.27274           {txt}R-squared     = {res} 0.0302
+{txt}{hline 13}{char +}{hline 30}           Adj R-squared = {res} 0.0278
+    {txt}   Total {char |} {res} 490058.052  2060  237.892258           {txt}Root MSE      = {res} 15.208
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          IQ{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 6}nearc4 {c |}{col 14}{res}{space 2} .8680808{col 26}{space 2} .8216913{col 37}{space 1}    1.06{col 46}{space 3}0.291{col 54}{space 4}-.7433537{col 67}{space 3} 2.479515
+{txt}{space 6}smsa66 {c |}{col 14}{res}{space 2} 1.354527{col 26}{space 2} .8027961{col 37}{space 1}    1.69{col 46}{space 3}0.092{col 54}{space 4}-.2198514{col 67}{space 3} 2.928906
+{txt}{space 6}reg661 {c |}{col 14}{res}{space 2} 4.768099{col 26}{space 2} 1.546809{col 37}{space 1}    3.08{col 46}{space 3}0.002{col 54}{space 4} 1.734623{col 67}{space 3} 7.801576
+{txt}{space 6}reg662 {c |}{col 14}{res}{space 2}  5.80812{col 26}{space 2} .9017539{col 37}{space 1}    6.44{col 46}{space 3}0.000{col 54}{space 4} 4.039673{col 67}{space 3} 7.576566
+{txt}{space 6}reg669 {c |}{col 14}{res}{space 2} 1.844655{col 26}{space 2} 1.151703{col 37}{space 1}    1.60{col 46}{space 3}0.109{col 54}{space 4}-.4139709{col 67}{space 3} 4.103281
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 99.38472{col 26}{space 2} .7016631{col 37}{space 1}  141.64{col 46}{space 3}0.000{col 54}{space 4} 98.00868{col 67}{space 3} 100.7608
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. log close 
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/aaronmarkiewitz/Documents/research/stata/econ_672/card_hw.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 6 Feb 2018, 10:39:27
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
